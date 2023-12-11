@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" minHeight="300" minWidth="400" stylesheets="@style.css" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="com.example.HelloController">
+
+  <Label styleClass="title-label" text="Tattoo Studio Login" GridPane.columnIndex="1" GridPane.columnSpan="2" />
+
+  <Label styleClass="label" text="Username:" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+  <TextField fx:id="usernameField" styleClass="text-field" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+
+  <Label styleClass="label" text="Password:" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+  <PasswordField fx:id="passwordField" styleClass="text-field" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+
+  <HBox alignment="center" spacing="10" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="3">
+    <Button onAction="#handleLogin" styleClass="button" text="Login" />
+    <Button onAction="#handleCancel" styleClass="button" text="Cancel" />
+  </HBox>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+
+</GridPane>

@@ -1,0 +1,26 @@
+.root {
+    -fx-background-color: lightgray;
+}
+
+.title-label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+    -fx-alignment: center;
+    -fx-padding: 10px;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: black;
+}
+
+.text-field {
+    -fx-pref-width: 200px;
+}
+
+.button {
+    -fx-background-color: darkgray;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+}
